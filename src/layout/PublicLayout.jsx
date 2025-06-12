@@ -1,19 +1,18 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import FooterView from '../components/Footer'
+import FooterView from '../components/Footer';
 import { Outlet } from 'react-router-dom';
 
-
-
-const publicview = () => {
-  
+const PublicLayout = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <main className="min-h-screen px-4">
+        <Outlet />
+      </main>
       <FooterView />
     </>
   );
 };
 
-export default publicview;
+export default PublicLayout;

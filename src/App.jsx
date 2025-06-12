@@ -1,7 +1,18 @@
 // App.jsx
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-// ...import lainnya
+import PublicLayout from './layout/PublicLayout';
+import PlayerList from './player/PlayerList';
+import Home from './pages/Home';
+import PlayerDetail from './player/PlayerDetail';
+import AddPlayerForm from './player/AddPlayerForm';
+import LoginView from "./pages/auth/loginView";
+import RegisterView from "./pages/auth/registerView";
+import Otpview from "./pages/auth/otpView"
+import Posting from "./components/AnnouncementView"
+import CreatePosting from "./components/createAnnoucement"
+import CreateSubs from "./components/subscription/CreateSubscription"
+import ClassView from "./components/subscription/SubscriptionView"
 
 const router = createBrowserRouter([
   {
