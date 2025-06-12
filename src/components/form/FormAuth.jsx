@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import FormInput from '../Form/FormInput';
+import FormInput from '../form/FormInput';
 import customAPI from '../../api';
 import { toast } from 'react-toastify';
 import { loginUser } from '../../features/userSlice'; // Pastikan path sesuai
