@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import FormAuth from '../../components/Form/FormAuth';
+import FormAuth from '../../components/form/FormAuth';
 import customAPI from '../../api';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
