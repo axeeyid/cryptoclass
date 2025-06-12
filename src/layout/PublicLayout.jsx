@@ -7,9 +7,9 @@ const PublicLayout = () => {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen px-4">
+      
         <Outlet />
-      </main>
+      
       <FooterView />
     </>
   );
